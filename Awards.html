@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <meta charset="UTF-8" />
+        <title>UDCA Awards</title>
+        <link rel="stylesheet" href="style.css"/>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+   
+    <style>
+   #UDCAAward, #Volunteer, #UDHS, #Inspire, #PastWinners {
+    scroll-margin-top: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        
+<nav class="navbar sticky-top navbar-expand-md navbar-dark">
+  <div class="container-fluid mx-3">
+    <a class="navbar-brand" href="index.html">
+      <img src="UDCAPrimary.png" width="100px">
+    </a>
+
+      <button
+            type="button"
+            class="navbar-toggler" 
+            data-bs-toggle="offcanvas" 
+            data-bs-target="#offcanvasNavbar" 
+            aria-controls="offcanvasNavbar" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+    </button>
+        <div
+                    style="background-color: black"
+                    class="offcanvas offcanvas-end"
+                    tabindex="1"
+                    id="offcanvasNavbar"
+                    arialabelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+                <h5 class="offcanvas-title" 
+                id="offcanvasNavbarLabel"><img src="UDCAlogo.png" width="90%"></h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+    <div class="offcanvas-body" 
+         id="navbarContent">
+      <ul class="navbar-nav ms-auto mb-2 gap-3 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link NavbarLink" href="About.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link NavbarLink" href="Events.html">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link Active" href="Awards.html">Awards</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link NavbarLink" href="Fundraising.html">Fundraising</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-center px-4 border-radius=25px" id="donate" href="https://www.paypal.com/donate?token=2-Mp9TpAucNOQFE3Qgnuomq3cI-5xxEZl7g5GHDpYBQHcnypgLoEw0nKmxI-AQATwlQPRvqv1MYMnZa4">Donate</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </div>
+</nav>
+        
+        <ul class="sidenav mt-5" id="VerticalUl">
+    <li class="nav-item SideItem">
+        <a class="nav-link m-3" href="#top">
+            <h3>Awards</h3></a>
+    </li>
+    <li class="nav-item SideItem">
+        <a class="nav-link m-3" href="#UDCAAward">
+    UDCA Award
+            </a>
+    </li>
+    <!--<li class="nav-item SideItem">
+        <a class="nav-link m-3" href="#Volunteer">
+    Volunteer Service Award
+            </a>
+    </li>-->
+    <li class="nav-item SideItem">
+        <a class="nav-link m-3" href="#UDHS">
+    UDHS Senior Scholarship
+            </a>
+    </li>
+    <li class="nav-item SideItem">
+        <a class="nav-link m-3" href="#Inspire">
+    Inspire Award
+            </a>
+    </li>
+    <li class="nav-item SideItem">
+        <a class="nav-link m-3" href="#PastWinners">
+    Past Winners
+            </a>
+    </li>
+</ul>
+      
+       <div style="margin-left:30%; margin-top:50px; margin-right: 20px; height:100%;">
+        
+            
+        <div class="container-fluid">
+             <div class="row">
+                <div class="col-12 col-md-12 col-lg-6"><h1>Awards</h1>
+                  The Awards program recognizes individuals who demonstrate outstanding dedication, leadership, and service within the community. Through these honors, the association celebrates students, educators, and volunteers who make meaningful contributions and embody the values of excellence, initiative, and community impact.
+                </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 pt-3">
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="Slide10.jpg" class="d-block w-100 h-300" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Slide3.jpg" class="d-block w-100 h-300" alt="..." >
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Slide9.jpg" class="d-block w-100 h-300" alt="..." >
+                            </div>
+                            <div class="carousel-item">
+                                <img src="INSPIREAward.jpg" class="d-block w-100 h-300" alt="...">
+                            </div>
+                        </div>
+                        <button
+                            class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                            class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="next">
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+          </div>
+            
+            <div class="container-fluid" id="UDCAAward">
+              <div class="row pt-5"><h2>UDCA Award</h2></div>
+              <div class="row">
+                <div class="col-12 pt-3 align-content-center">
+               The UDCA Medal program and student volunteer award were inaugurated to encourage students in the UDCA community to pursue excellence in academics, extracurricular activities, leadership and community services. By recognizing those who have demonstrated outstanding achievements in those areas, we hope to show our high expectations for our children and promote well-rounded education and excellence for all.
+                <br><br>
+              Each Spring, the recipients are recognized during the UDCA Memorial Day Picnic event.</div>
+                
+                
+                <div class="col-sm-12 col-md-8 align-content-center pt-3">
+                  <a href="https://drive.google.com/file/d/1vqyStumrS7-7GFJfStt_efydfBnYojW6/view" class="btn"><h2>See Guidelines</h2></a>
+                </div>
+                <div class="col-sm-12 col-md-4 align-content-center pt-3">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVz-mqAM7PDytKQONJqkcMnd_-9qT7N2RJ7FXARkZ2WE15jA/viewform?pli=1" class="btn"><h2>Apply</h2></a>
+                </div>
+                </div>
+            </div>
+            
+         
+            <!--Discontinued program, may return
+
+              <div class="container-fluid" id="Volunteer">
+              <div class="row pt-5"><h2>Volunteer Service Award</h2></div>
+              <div class="row">
+                <div class="col-12 pt-3 align-content-center">
+                The President’s Volunteer Service Award (PVSA) was founded in 2003 by the President’s Council on Service and Civic Participation under George W. Bush to <b>recognize</b> the vital role of volunteers in strengthening America’s communities and national identity. The award <b>honors</b> individuals whose service makes a meaningful impact across the country and aims to <b>inspire</b> others to give back and support their communities.
+                  <br><br>
+                In February 2020, the Upper Dublin Chinese American Association (UDCA) became an official PVSA certifying nonprofit organization and established a review committee composed of senior board members. The UDCA-PVSA program is open to volunteers over the age of five and is awarded across multiple age categories. Recipients are recognized based on verified volunteer service completed within the past 12 months, with a minimum of 60 hours contributed through UDCA-related activities.
+                </div>
+                <div class="row pt-5">
+                  <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                      <tr class="table-dark">
+                        <th scope="col">Age Group</th>
+                        <th scope="col">Bronze</th>
+                        <th scope="col">Silver</th>
+                        <th scope="col">Gold</th>
+                        <th scope="col">Lifetime Achievement Award</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Kids (5–10 years old)</td>
+                        <td>26–49 hours</td>
+                        <td>50–74 hours</td>
+                        <td>75+ hours</td>
+                        <td>4,000+ hours</td>
+                      </tr>
+                      <tr>
+                        <td>Teens (11–15)</td>
+                        <td>50–74 hours</td>
+                        <td>75–99 hours</td>
+                        <td>100+ hours</td>
+                        <td>4,000+ hours</td>
+                      </tr>
+                      <tr>
+                        <td>Young Adults (16–25)</td>
+                        <td>100–174 hours</td>
+                        <td>175–249 hours</td>
+                        <td>250+ hours</td>
+                        <td>4,000+ hours</td>
+                      </tr>
+                      <tr>
+                        <td>Adults (26+)</td>
+                        <td>100–249 hours</td>
+                        <td>250–499 hours</td>
+                        <td>500+ hours</td>
+                        <td>4,000+ hours</td>
+                      </tr>
+                      <tr>
+                        <td>Families and Groups</td>
+                        <td>200-499 hours</td>
+                        <td>500-999 hours</td>
+                        <td>1,000+ hours</td>
+                        <td>4,000+ hours</td>
+                      </tr>
+                    </tbody>
+                </table>
+                </div>
+                </div>
+                
+                <div class="col-12 align-content-center pt-5">
+                <a href="RegisterLink" class="btn"><h2>Apply</h2></a>
+                </div>
+              </div>
+            </div>
+-->
+         
+         
+            <div class="container-fluid" id="UDHS">
+              <div class="row pt-5"><h2>UDHS Senior Award</h2></div>
+              <div class="row">
+                <div class="col-12 pt-3 align-content-center">
+                From 2016 onward, UDCA-sponsored scholarships have been awarded annually to two outstanding UDHS graduating seniors who have qualified as National Merit Finalists while maintaining excellent extracurricular performance records. The awardees are selected by the UDHS faculty and administrators.
+                </div>
+                
+                
+                <div class="col-12 align-content-center pt-5">
+                <a href="RegisterLink" class="btn"><h2>Apply</h2></a>
+                </div>
+              </div>
+            </div>
+         
+            <div class="container-fluid" id="Inspire">
+              <div class="row pt-5"><h2>Inspire Award</h2></div>
+              <div class="row">
+                <div class="col-12 pt-3 align-content-center">
+                The INSPIRE award is sponsored by the Upper Dublin Chinese American Association and is awarded to an individual who consistently demonstrates the characteristics of an excellent educator, which include being Innovative, Nurturing, Spirited, Passionate, Inclusive, Resilient, and Empowering. The Recipient is announced at the annual Lunar New Year Gala.</div>
+                
+                
+                <div class="col-12 align-content-center pt-5">
+                <a href="RegisterLink" class="btn"><h2>Apply</h2></a>
+                </div>
+              </div>
+            </div>
+         
+         <div class="container-fluid pt-5 mb-5" id="PastWinners">
+           <h2>UDCA Award</h2>
+                  <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-4 pb-5">
+                    <div class="col">
+                      <div class="card h-100 p-3" style="background-color:#645B38">
+                       <h5 class="card-title text-center text-white">2025</h5>
+                        <img src="UDCADance.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-white">Need Name</h5>
+                          </div>
+                        <a href="#" class="btn">Read More</a>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100 p-3" style="background-color:#645B38">
+                       <h5 class="card-title text-center text-white">2024</h5>
+                        <img src="UDCADance.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-white">Need Name</h5>
+                          </div>
+                        <a href="#" class="btn">Read More</a>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100 p-3" style="background-color:#645B38">
+                       <h5 class="card-title text-center text-white">Past Years</h5>
+                        <img src="UDCADance.jpg" class="card-img-top" alt="...">
+                        <div class="card-body"></div>
+                          <a href="#" class="btn">Read More</a>
+                      </div>
+                    </div>
+                  </div>
+                    
+           
+                    <h2>Volunteer Service Award </h2>
+                  <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-4 pb-5">
+                    <div class="col">
+                      <div class="card h-100 p-3" style="background-color:#99B4CA">
+                       <h5 class="card-title text-center text-black">2025</h5>
+                        <img src="UDCADance.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-black">Need Name</h5>
+                          </div>
+                        <a href="#" class="btn">Read More</a>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100 p-3" style="background-color:#99B4CA">
+                       <h5 class="card-title text-center text-black">2024</h5>
+                        <img src="UDCADance.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-black">Need Name</h5>
+                          </div>
+                        <a href="#" class="btn">Read More</a>
+                      </div>
+                    </div>
+                     <div class="col">
+                      <div class="card h-100 p-3" style="background-color:#99B4CA">
+                       <h5 class="card-title text-center text-black">Past Years</h5>
+                        <img src="UDCADance.jpg" class="card-img-top" alt="...">
+                        <div class="card-body"></div>
+                          <a href="#" class="btn">Read More</a>
+                      </div>
+                    </div>
+                  </div>
+           
+                    <h2>Outstanding UDHS Senior Scholarship</h2>
+                  <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-4 pb-5">
+                    <div class="col">
+                      <div class="card h-100 p-3" style="background-color:#EFE4E4">
+                       <h5 class="card-title text-center text-black">2025</h5>
+                        <img src="UDCADance.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-black">Need Name</h5>
+                          </div>
+                        <a href="#" class="btn">Read More</a>
+                      </div>
+                    </div>
+                    
+                     <div class="col">
+                      <div class="card h-100 p-3" style="background-color:#EFE4E4">
+                       <h5 class="card-title text-center text-black">2024</h5>
+                        <img src="UDCADance.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-black">Albert Zeng & Julia Axler</h5>
+                          </div>
+                        <a href="#" class="btn">Read More</a>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100 p-3" style="background-color:#EFE4E4">
+                       <h5 class="card-title text-center text-black">Past Years</h5>
+                        <img src="UDCADance.jpg" class="card-img-top" alt="...">
+                        <div class="card-body"></div>
+                          <a href="#" class="btn">Read More</a>
+                      </div>
+                    </div>
+                    </div>
+           
+                    <h2>Inspire Award Winners</h2>
+                  <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-4 pb-5">
+                    <div class="col">
+                      <div class="card h-100 p-3" style="background-color:#D1212A">
+                       <h5 class="card-title text-center text-white">2025</h5>
+                        <img src="UDCADance.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-white">Need Name</h5>
+                          </div>
+                        <a href="#" class="btn">Read More</a>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100 p-3" style="background-color:#D1212A">
+                       <h5 class="card-title text-center text-white">2024</h5>
+                        <img src="INSPIREAward.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-white">Ms. Phoebe Lim</h5>
+                          </div>
+                        <a href="#" class="btn">Read More</a>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100 p-3" style="background-color:#D1212A">
+                       <h5 class="card-title text-center text-white">Past Years</h5>
+                        <img src="UDCADance.jpg" class="card-img-top" alt="...">
+                        <div class="card-body"></div>
+                          <a href="#" class="btn">Read More</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+         
+         
+      </div>
+      
+        <!--Footer-->
+        <div class="container-fluid" style="background-color:#1F1E14">
+            <div class="row mt-4 pe-5">
+                <div class="col-2 p-3">
+                <a href="index.html">
+                <img src="UDCAPrimary.png" width="100px" alt="Logo">
+                </a>
+              </div>
+            <div class="col text-white align-content-center">
+                <h5>Upper Dublin
+                Chinese American Association
+               </h5> </div>
+            <div class="col-2 align-content-center">
+                <a href="mailto:UDCA@udchinese.org" class="btn btn-footer">Contact</a>
+                </div>
+            <div class="col-2 align-content-center">
+                <a href="https://www.paypal.com/donate?token=20tUKie6Eug36NWWuvtWciy3XHj_gR5hrsIdLXbP7QhfNN6p47j9enBToAJZy_8PmglJ-Dah6SpQRBNP" class="btn btn-footer">Donate</a>
+                </div>
+            </div>
+        </div>
+      
+    </body>
+   
+</html>
