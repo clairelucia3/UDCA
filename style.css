@@ -1,0 +1,135 @@
+/* #D1212A (red)
+     * #1F1E14 (black)
+     * #EFE4E4 (cream)
+     * #DC9719 (yellow)
+     * #645B38 (green)
+     * #99B4CA (blue)
+     *  */
+
+    h1{
+        font-size: 4rem;
+        font-weight: 800;
+}
+
+    h2{
+        font-size: 2.5rem;
+        font-weight:800;
+}
+
+    .NavbarLink:hover{
+    color:white;
+    transition-property: inherit;
+    transition-duration: 0.25s;
+}
+
+    .NavbarLink{
+        color:#b5aaaa
+}
+
+    .Active{
+        color:white;
+        font-weight:800;
+}
+
+    .navbar {
+        background-color:#1F1E14;
+        font-weight:800;
+}
+
+    .sidenav {
+            font-family:futura;
+        }
+    .nav-link {
+            border-radius: 25px;
+            font-size:1rem;
+}
+
+    
+
+    .SideItem:hover{
+        background-color:#EFE4E4 ;
+        border-radius: 25px;
+        color: black;
+        transition-property: inherit;
+        transition-duration: 0.25s;
+        font-weight:500;
+            
+        }
+
+    #VerticalUl {
+        list-style-type: none;
+        padding: 20px;
+        width: 25%;
+        height: 100%;
+        position: fixed;
+        overflow:auto; 
+        top: 10%;
+        color: black;
+        font-weight:500
+            }
+
+    #donate {
+        background-color:#D1212A;
+        color:white;
+}
+
+    #donate:hover {
+        background-color:white ;
+        color:black;
+        transition-property: inherit;
+        transition-duration: 0.25s;
+        
+}
+
+    .btn {
+        border:none;
+        background-color:#1F1E14;
+        border-radius: 15px;
+        width: 100%;
+        color:white;
+        font-weight: 500;
+}
+
+    #HeadCards {
+        background-image: url("UDCAPattern.png");
+        background-size: 100%;
+        background-position:fixed;
+        min-height:fit-content;
+        background-color: #99B4CA
+        
+}
+
+    .btn-footer {
+        border:none;
+        background-color:#D1212A ;
+        border-radius: 15px;
+        width: 100%;
+        color:white
+}
+
+    .btn:hover {
+        border:none;
+        transition-property: inherit;
+        transition-duration: 0.5s;
+        background-color:#DC9719;
+        color:white
+}
+
+    .card {
+        border:none;
+        border-radius: 15px;
+}
+    .row, .col{
+        overflow: hidden;
+}
+
+    .Images{border-radius: 15px}
+
+
+    img {
+        border-radius: 15px
+}
+
+    .navbar-toggler{
+        outline-color:white}
+
