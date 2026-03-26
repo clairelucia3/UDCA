@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <meta charset="UTF-8" />
+        <title>UDCA Home</title>
+        <link rel="stylesheet" href="style.css"/>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+   
+    <style>
+    /* #D1212A (red)
+     * #1F1E14 (black)
+     * #EFE4E4 (cream)
+     * #DC9719 (yellow)
+     * #645B38 (green)
+     * #99B4CA (blue)
+     *  */
+        
+        .toast {
+    width: 100%;
+    background-color:#DC9719 ;
+    left: 0;
+}
+        .toast-header{
+            background-color:transparent
+        }
+        
+        .accordion{
+            border:none;
+            background-color:#DC9719 ;
+        }
+    
+        </style>
+    </head>
+    <body>
+        
+    
+        
+        
+<nav class="navbar sticky-top navbar-expand-md navbar-dark">
+  <div class="container-fluid mx-3">
+    <a class="navbar-brand" href="index.html">
+      <img src="UDCAPrimary.png" width="100px">
+    </a>
+
+      <button
+            type="button"
+            class="navbar-toggler" 
+            data-bs-toggle="offcanvas" 
+            data-bs-target="#offcanvasNavbar" 
+            aria-controls="offcanvasNavbar" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+    </button>
+        <div
+                    style="background-color:#1F1E14"
+                    class="offcanvas offcanvas-end"
+                    tabindex="1"
+                    id="offcanvasNavbar"
+                    arialabelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+                <h5 class="offcanvas-title" 
+                id="offcanvasNavbarLabel"><img src="UDCAlogo.png" width="90%"></h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+    <div class="offcanvas-body" 
+         id="navbarContent">
+      <ul class="navbar-nav ms-auto mb-2 gap-3 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link NavbarLink" href="About.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link NavbarLink" href="Events.html">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link NavbarLink" href="Awards.html">Awards</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link NavbarLink" href="Fundraising.html">Fundraising</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-center px-4 border-radius=25px" id="donate" href="https://www.paypal.com/donate?token=2-Mp9TpAucNOQFE3Qgnuomq3cI-5xxEZl7g5GHDpYBQHcnypgLoEw0nKmxI-AQATwlQPRvqv1MYMnZa4">Donate</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </div>
+</nav>
+        
+        
+        
+
+<!--Toast-->
+    <div class="container-toast">
+      <div class="toast show accordion accordian-flush">
+        <div class="toast-header accordion-item justify-content-around p-3">
+                <div class="col-sm-5 col-md-6 px-4">
+                    <h5 class="accordion header text-black">
+                    We have rebranded! We are still the same UDCA you know.
+                    </h5>
+                </div>
+                <div class="col-2 text-center">
+            <img src="OldUDCALogo.png" width="100px" alt="oldlogo">
+                </div>
+            <div class="col-3 text-center">
+                        <button class=" btn" style="background-color:#1F1E14" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> 
+                        Click here to read More
+                        </button>
+                </div>
+        <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+        </div>
+        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#toast-header">
+        <div class="accordion-body text-black px-5 py-3">
+            Welcome to the newly redesigned UDCA website! While the look and layout have been refreshed to create a more modern, accessible, and user-friendly experience, the heart of our organization remains the same. We are still committed to celebrating culture, supporting our community, and fostering meaningful connections across generations.
+          <br><br>  
+           This updated design is meant to make it easier for you to explore our programs, stay informed about events, and engage with everything UDCA has to offer. Though the appearance may be new, our mission, values, and dedication to the community continue unchanged. We’re the same UDCA you know and trust, just with a fresh new look.
+      </div>
+    </div>
+  </div>
+</div>
+  
+ 
+        
+
+        
+<div class= "container-fluid">
+    <div class="row m-5 justify-content-between Images">
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-5  align-content-around">
+            <h1>Celebrating Heritage, Building Community</h1>
+            <div class="col my-4">The Upper Dublin Chinese American Association is an organization dedicated to celebrating Chinese culture by fostering communication and understanding among students and families in the Upper Dublin community through cultural events, educational programs, and community gatherings.
+            </div>
+            <div class="col my-4 text-center">
+            <a href="DonateLink" class="btn"><h1>Donate</h1></a>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="UDCAKids.jpg" alt="KidsRunning" class="d-block w-100 h-300">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="UDCATugWar.jpg" class="d-block w-100 h-300" alt="..." >
+                            </div>
+                            <div class="carousel-item">
+                                <img src="UDCAKids3.jpg" class="d-block w-100 h-300" alt="..." >
+                            </div>
+                            <div class="carousel-item">
+                                <img src="UDCAKids2.jpg" class="d-block w-100 h-300" alt="..." >
+                            </div>
+                            <div class="carousel-item">
+                                <img src="UDCADance.jpg" class="d-block w-100 h-300" alt="..." >
+                            </div>
+                            <div class="carousel-item">
+                                <img src="UDCAAwards.jpg" class="d-block w-100 h-300" alt="..." >
+                            </div>
+                            <div class="carousel-item">
+                                <img src="UDCAAbout.jpg" class="d-block w-100 h-300" alt="..." >
+                            </div>
+                        </div>
+                        <button
+                            class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                            class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+    </div>    
+</div>
+        
+<div class="container-fluid" id="HeadCards">
+<div class="container mb-5 p-5">
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+  <div class="col" >
+    <div class="card h-100 p-3" style="background-color:white">
+      <img src="UDCAAbout.jpg" class="card-img-top" alt="AboutImage">
+      <div class="card-body">
+        <h5 class="card-title">About</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        <a href="About.html" class="btn">Read More</a>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100 p-3" style="background-color:white">
+      <img src="UDCADance.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Events</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+          <a href="Events.html" class="btn">Read More</a>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100 p-3" style="background-color:white">
+      <img src="UDCAAwards.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Awards</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+         </div>
+          <a href="Awards.html" class="btn">Read More</a>
+       
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100 p-3" style="background-color:white">
+      <img src="UDCAFundraising.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Fundraising</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        <a href="Fundraising.html" class="btn">Read More</a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+        
+      
+        
+        <!--Footer-->
+        <div class="container-fluid" position="sticky" style="background-color:#1F1E14">
+            <div class="row mt-4 pe-5">
+                <div class="col-2 p-3">
+                <a href="index.html">
+                <img src="UDCAPrimary.png" width="100px" alt="Logo"></a>
+              </div>
+            <div class="col text-white align-content-center">
+                <h5>Upper Dublin
+                Chinese American Association
+               </h5> </div>
+            <div class="col-2 align-content-center">
+                <a href="mailto:UDCA@udchinese.org" class="btn btn-footer">Contact</a>
+                </div>
+            <div class="col-2 align-content-center">
+                <a href="https://www.paypal.com/donate?token=20tUKie6Eug36NWWuvtWciy3XHj_gR5hrsIdLXbP7QhfNN6p47j9enBToAJZy_8PmglJ-Dah6SpQRBNP" class="btn btn-footer">Donate</a>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+    </body>
+   
+</html>
