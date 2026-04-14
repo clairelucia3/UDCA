@@ -3,13 +3,75 @@
     <head>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
         <meta charset="UTF-8" />
+      
         <title>UDCA Events</title>
         <link rel="stylesheet" href="style.css"/>
          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-   
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Outfit:wght@400;500&display=swap" rel="stylesheet">
     <style>
         #Lunar, #Thanksgiving, #AAPI, #RealTalk {
     scroll-margin-top: 100px;
+            }
+      
+      .LearnMore, #LearnMoreLunar, #LearnMoreThanksgiving, #LearnMoreRealTalk {
+        color:white;
+        background-color: black;
+        text-decoration:none;
+        border-radius:25px;
+        padding:5px;
+        font-family:futura;
+      }
+      
+      
+      #LunarNYBlog, #ThanksgivingBlog, #AAPIMonthBlog, #RealTalkBlog {
+            max-width: 270px;
+            display:grid;
+        }
+      
+
+        .post {
+            margin-right: 25px;
+            margin-top: 25px;
+            padding: 30px;
+            background-color:#EFE4E4 ;
+            border-radius: 25px;
+            
+        }
+    
+
+        .post img{
+            border: 5px solid black;
+            border-radius: 10px;
+            width: 200px;
+            height: 130px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .post a {
+            text-decoration: none;
+            color:white;
+            background-color: black;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-family:futura;
+        }
+    
+            @media screen and (min-width: 1200px) {
+                #LunarNYBlog, #ThanksgivingBlog, #AAPIMonthBlog, #RealTalkBlog{
+                    grid-template-columns: repeat(3, 1fr)
+                }
+            }
+            @media screen and (min-width: 801px) and (max-width: 1200px) {
+                #LunarNYBlog, #ThanksgivingBlog, #AAPIMonthBlog, #RealTalkBlog{
+                    grid-template-columns: repeat(2, 1fr)
+                }
+            }
+            @media screen and (max-width: 800px) {
+                #LunarNYBlog, #ThanksgivingBlog, #AAPIMonthBlog, RealTalkBlog{
+                    grid-template-columns: repeat(1, 1fr)
+                }
             }
       
         </style>
@@ -59,7 +121,7 @@
           <a class="nav-link NavbarLink" href="Fundraising.html">Fundraising</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-center px-4 border-radius=25px" id="donate" href="https://www.paypal.com/donate?token=7L75bGdrRhqNlqWZnUovaPkOmb_yiMQPcAL_br72FXj9TQbgZ-Jy2oLfDtBO_ufVEUF6GcRMEMUbqjeo">Donate</a>
+          <a class="nav-link text-center px-4 border-radius=25px" id="donate" href="https://www.paypal.com/donate?token=2-Mp9TpAucNOQFE3Qgnuomq3cI-5xxEZl7g5GHDpYBQHcnypgLoEw0nKmxI-AQATwlQPRvqv1MYMnZa4">Donate</a>
         </li>
       </ul>
     </div>
@@ -94,11 +156,15 @@
             </a>
     </li>
 </ul>
+      
+
+
+
         
         
         <div style="margin-left:30%; margin-top:50px; margin-right: 20px; height:100%;">
         
-            
+           
         <div class="container-fluid">
              <div class="row pt-5"><h1>Events</h1></div>
             <div class="row">
@@ -122,79 +188,77 @@
                 </div>
                 
                 <div class="col-sm-12 col-md-6 align-content-center pt-3">
-                <a href="https://www.paypal.com/donate?token=7L75bGdrRhqNlqWZnUovaPkOmb_yiMQPcAL_br72FXj9TQbgZ-Jy2oLfDtBO_ufVEUF6GcRMEMUbqjeo" class="btn"><h2>Sponsor this Event</h2></a>
+                <a href="https://www.paypal.com/donate?token=5mHW0hO8Zx7B9879T2g1P71oE2KtSjMfqyM83gqxzRglsohsgxuPl59NpZefO57JyHiuRWr5_twv0aTm" class="btn"><h2>Sponsor this Event</h2></a>
                 </div>
                 <div class="col-sm-12 col-md-6 align-content-center pt-3">
                 <a href="mailto:UDCA@udchinese.org" class="btn"><h2>Inquire about Event</h2></a>
                 </div>
               </div>
               
-                <div class="container-fluid pt-5 mb-5">
-                  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                    <div class="col">
-                      <div class="card h-100 p-3" style="background-color:#EFE4E4 ">
-                        <img src="Photo_4_Chinese_Classical_Dunhuang_Dance.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">2025</h5>
-                          <p class="card-text">This is a longer card with supporting text below.</p>
-                          <a href="#" class="btn">Read More</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100 p-3" style="background-color:#EFE4E4">
-                        <img src="Photo_5_Korean_Fan_Dance.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">2024</h5>
-                          <p class="card-text">This is a longer card with supporting text below.</p>
-                          <a href="#" class="btn">Read More</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100 p-3" style="background-color:#EFE4E4">
-                        <img src="Photo_6_Hai-Ye_Ni_and_Cong_Fan.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">2023</h5>
-                          <p class="card-text">This is a longer card with supporting text below.</p>
-                          <a href="#" class="btn">Read More</a>
-                          </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100 p-3" style="background-color:#EFE4E4">
-                        <img src="Photo_7_Bilingual_Recitation.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">2022</h5>
-                          <p class="card-text">This is a longer card with supporting text below.</p>
-                          <a href="#" class="btn">Read More</a>
-                          </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100 p-3" style="background-color:#EFE4E4">
-                        <img src="Photo_8_Indian_Dance.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">2021</h5>
-                          <p class="card-text">This is a longer card with supporting text below.</p>
-                          <a href="#" class="btn">Read More</a>
-                          </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100 p-3" style="background-color:#EFE4E4">
-                        <img src="UDCADance.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Past Years</h5>
-                          <p class="card-text">This is a longer card with supporting text below.</p>
-                          <a href="#" class="btn">Read More</a>
-                          </div>
+                <div class="container-fluid pt-3 mb-5">
+                 <div id="LunarNYBlog"></div>
+                  
+                  <div class="row pt-4 text-center">
+                    <div class="col-12" id="LearnMoreLunar" style="background-color:black">
+                        <a href="https://upperdublinchineseamericanassociation.blogspot.com/search/label/LunarNY" class="LearnMore"> <h3>Click here to read about past years.</h3></a>
                       </div>
                     </div>
                   </div>
-                  </div>
-              
-            </div>
+                
+                  
+                   
+  
+               
+
+    <script>
+        // Gets first image from blog post
+        function getPostImage(post) {
+            let content = "";
+            if (post.content && post.content.$t) {
+                content = post.content.$t;
+            } else if (post.summary && post.summary.$t) {
+                content = post.summary.$t;
+            }
+
+            let tempDiv = document.createElement("div");
+            tempDiv.innerHTML = content;
+            let img = tempDiv.querySelector("img");
+
+            return img ? img.src : "";
+        }
+
+        //Gets words from blog post
+        function loadBlog(data) {
+            let posts = data.feed.entry || [];
+            let html = "";
+
+            //Change here for # of posts being show. (0,5) shows the 5 lastest posts.
+            posts.slice(0, 3).forEach(post => {
+                let title = post.title.$t;
+                let link = post.link.find(l => l.rel === "alternate").href;
+                let image = getPostImage(post);
+
+                //Adds the image, title, and link text
+                html += `
+                    <div class="post">
+                        ${image ? `<img src="${image}" alt="${title}">` : ""}
+                        <h4>${title}<h4>
+                        <p><a href="${link}" target="_blank">Read More</a></p>
+                    </div>
+                `;
+            });
+
+            //Displays to "blog" div
+            document.getElementById("LunarNYBlog").innerHTML = html || "<p>No posts found.</p>";
+        }
+    </script>
+
+    <script src="https://upperdublinchineseamericanassociation.blogspot.com/feeds/posts/default/-/LunarNY?alt=json-in-script&callback=loadBlog"></script>
+               
+                  
+    
+     </div>
+            
             
             <div class="container-fluid" id="Thanksgiving">
               <div class="row pt-5"><h2>Thanksgiving</h2></div>
@@ -216,80 +280,74 @@
                 </div>
                 
                 <div class="col-sm-12 col-md-6 align-content-center pt-3">
-                <a href="https://www.paypal.com/donate?token=7L75bGdrRhqNlqWZnUovaPkOmb_yiMQPcAL_br72FXj9TQbgZ-Jy2oLfDtBO_ufVEUF6GcRMEMUbqjeo" class="btn"><h2>Sponsor this Event</h2></a>
+                <a href="https://www.paypal.com/donate?token=5mHW0hO8Zx7B9879T2g1P71oE2KtSjMfqyM83gqxzRglsohsgxuPl59NpZefO57JyHiuRWr5_twv0aTm" class="btn"><h2>Sponsor this Event</h2></a>
                 </div>
                 <div class="col-sm-12 col-md-6 align-content-center pt-3">
                 <a href="mailto:UDCA@udchinese.org" class="btn"><h2>Inquire about Event</h2></a>
                 </div>
               </div>
               
-                <div class="container pt-5 mb-5">
-                  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                    <div class="col">
-                      <div class="card h-100 p-3" style="background-color:#EFE4E4">
-                        <img src="thanksgiving1_5.jpg" class="card-img-top" alt="AboutImage">
-                        <div class="card-body">
-                          <h5 class="card-title">2025</h5>
-                          <p class="card-text">This is a longer card with supporting text below.</p>
-                          </div>
-                        <a href="#" class="btn">Read More</a>
-                      </div>
-                    </div>
-                     <div class="col">
-                      <div class="card h-100 p-3" style="background-color:#EFE4E4">
-                        <img src="6Y4A3650_v1.jpg" class="card-img-top" alt="AboutImage">
-                        <div class="card-body">
-                          <h5 class="card-title">2024</h5>
-                          <p class="card-text">This is a longer card with supporting text below.</p>
-                          </div>
-                        <a href="#" class="btn">Read More</a>
-                      </div>
-                    </div>
-                     <div class="col">
-                      <div class="card h-100 p-3" style="background-color:#EFE4E4">
-                        <img src="6Y4A3667_v1.jpg" class="card-img-top" alt="AboutImage">
-                        <div class="card-body">
-                          <h5 class="card-title">2023</h5>
-                          <p class="card-text">This is a longer card with supporting text below.</p>
-                          </div>
-                        <a href="#" class="btn">Read More</a>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100 p-3" style="background-color:#EFE4E4">
-                        <img src="6Y4A3680_v1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">2022</h5>
-                          <p class="card-text">This is a longer card with supporting text below.</p>
-                          </div>
-                          <a href="#" class="btn">Read More</a>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100 p-3" style="background-color:#EFE4E4">
-                        <img src="6Y4A3736_v1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">2021</h5>
-                          <p class="card-text">This is a longer card with supporting text below.</p>
-                          </div>
-                        <a href="#" class="btn">Read More</a>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100 p-3" style="background-color:#EFE4E4">
-                        <img src="6Y4A3809_v1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Past Years</h5>
-                          <p class="card-text">This is a longer card with supporting text below.</p>
-                          </div>
-                          <a href="#" class="btn">Read More</a>
+              
+                  
+                  <div class="container-fluid pt-3 mb-5">
+                 <div id="ThanksgivingBlog"></div>
+                  
+                  <div class="row pt-4 text-center">
+                    <div class="col-12" id="LearnMoreThanksgiving" style="background-color:black">
+                        <a href="https://upperdublinchineseamericanassociation.blogspot.com/search/label/Thanksgiving" class="LearnMore"> <h3>Click here to read about past years.</h3></a>
                       </div>
                     </div>
                   </div>
-                  </div>
+                  
+                  <script>
+        // Gets first image from blog post
+        function getPostImage(post) {
+            let content = "";
+            if (post.content && post.content.$t) {
+                content = post.content.$t;
+            } else if (post.summary && post.summary.$t) {
+                content = post.summary.$t;
+            }
+
+            let tempDiv = document.createElement("div");
+            tempDiv.innerHTML = content;
+            let img = tempDiv.querySelector("img");
+
+            return img ? img.src : "";
+        }
+
+        //Gets words from blog post
+        function loadBlog(data) {
+            let posts = data.feed.entry || [];
+            let html = "";
+
+            //Change here for # of posts being show. (0,5) shows the 5 lastest posts.
+            posts.slice(0, 5).forEach(post => {
+                let title = post.title.$t;
+                let link = post.link.find(l => l.rel === "alternate").href;
+                let image = getPostImage(post);
+
+                //Adds the image, title, and link text
+                html += `
+                    <div class="post">
+                        ${image ? `<img src="${image}" alt="${title}">` : ""}
+                        <h3>${title}<h3>
+                        <p><a href="${link}" target="_blank">Click Here</a></p>
+                    </div>
+                `;
+            });
+
+            //Displays to "blog" div
+            document.getElementById("ThanksgivingBlog").innerHTML = html || "<p>No posts found.</p>";
+        }
+    </script>
+ 
+    <script src="https://upperdublinchineseamericanassociation.blogspot.com/feeds/posts/default/-/Thanksgiving?alt=json-in-script&callback=loadBlog"></script> 
+               
+          </div>
+               
               
               
-            </div>
           
           <div class="container-fluid" id="AAPI">
               <div class="row pt-5"><h2>AAPI Month</h2></div>
@@ -308,46 +366,68 @@
                 </div>
                 
                 <div class="col-sm-12 col-md-6 align-content-center pt-3">
-                <a href="https://www.paypal.com/donate?token=7L75bGdrRhqNlqWZnUovaPkOmb_yiMQPcAL_br72FXj9TQbgZ-Jy2oLfDtBO_ufVEUF6GcRMEMUbqjeo" class="btn"><h2>Sponsor this Event</h2></a>
+                <a href="https://www.paypal.com/donate?token=5mHW0hO8Zx7B9879T2g1P71oE2KtSjMfqyM83gqxzRglsohsgxuPl59NpZefO57JyHiuRWr5_twv0aTm" class="btn"><h2>Sponsor this Event</h2></a>
                 </div>
                 <div class="col-sm-12 col-md-6 align-content-center pt-3">
                 <a href="mailto:UDCA@udchinese.org" class="btn"><h2>Inquire about Event</h2></a>
                 </div>
               </div>
               
-                <div class="container pt-5 mb-5">
-                  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                    <div class="col">
-                      <div class="card h-100 p-3" style="background-color:#EFE4E4">
-                        <img src="283903903_418029063665776_5850415798021660988_n.jpg" class="card-img-top" alt="AboutImage">
-                        <div class="card-body">
-                          <h5 class="card-title">2025</h5>
-                          </div>
-                          <p class="card-text">This is a longer card with supporting text below.</p>
-                              <a href="#" class="btn">Read More</a>
+                <div class="container pt-3">
+                  <div class="container-fluid pt-3 mb-5">
+                 <div id="AAPIMonthBlog"></div>
+                  <!-- No years on display yet
+                  <div class="row pt-4 text-center">
+                    <div class="col-12" id="LearnMoreLunar" style="background-color:black">
+                        <a href="https://upperdublinchineseamericanassociation.blogspot.com/search/label/LunarNY" class="LearnMore"> <h3>Click here to read about past years.</h3></a>
                       </div>
                     </div>
-                     <div class="col">
-                      <div class="card h-100 p-3" style="background-color:#EFE4E4">
-                        <img src="thanksgiving1_5.jpg" class="card-img-top" alt="AboutImage">
-                        <div class="card-body">
-                          <h5 class="card-title">2024</h5>
-                          <p class="card-text">This is a longer card with supporting text below.</p>
-                          </div>
-                          <a href="#" class="btn">Read More</a>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100 p-3" style="background-color:#EFE4E4">
-                        <img src="thanksgiving1_5.jpg" class="card-img-top" alt="AboutImage">
-                        <div class="card-body">
-                          <h5 class="card-title">Past Years</h5>
-                          <p class="card-text">This is a longer card with supporting text below.</p>
-                          </div>
-                          <a href="#" class="btn">Read More</a>
-                      </div>
-                    </div>
+-->
                   </div>
+                  <script>
+        // Gets first image from blog post
+        function getPostImage(post) {
+            let content = "";
+            if (post.content && post.content.$t) {
+                content = post.content.$t;
+            } else if (post.summary && post.summary.$t) {
+                content = post.summary.$t;
+            }
+
+            let tempDiv = document.createElement("div");
+            tempDiv.innerHTML = content;
+            let img = tempDiv.querySelector("img");
+
+            return img ? img.src : "";
+        }
+
+        //Gets words from blog post
+        function loadBlog(data) {
+            let posts = data.feed.entry || [];
+            let html = "";
+
+            //Change here for # of posts being show. (0,5) shows the 5 lastest posts.
+            posts.slice(0, 3).forEach(post => {
+                let title = post.title.$t;
+                let link = post.link.find(l => l.rel === "alternate").href;
+                let image = getPostImage(post);
+
+                //Adds the image, title, and link text
+                html += `
+                    <div class="post">
+                        ${image ? `<img src="${image}" alt="${title}">` : ""}
+                        <h4>${title}<h4>
+                        <p><a href="${link}" target="_blank">Read More</a></p>
+                    </div>
+                `;
+            });
+
+            //Displays to "blog" div
+            document.getElementById("AAPIMonthBlog").innerHTML = html || "<p>No posts found.</p>";
+        }
+    </script>
+
+    <script src="https://upperdublinchineseamericanassociation.blogspot.com/feeds/posts/default/-/AAPI?alt=json-in-script&callback=loadBlog"></script>
                   </div>
               
               
@@ -378,69 +458,58 @@
               </div>
               
                 <div class="container pt-5 mb-5">
-                  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                    <div class="col">
-                      <div class="card h-100 p-3" style="background-color:#EFE4E4">
-                        <img src="Real%20Talk%205_photo%20A.jpg" class="card-img-top" alt="AboutImage">
-                        <div class="card-body">
-                          <h5 class="card-title">Reframing the Risks</h5>
-                          <p class="card-text">This is a longer card with supporting text below.</p>
-                          </div>
-                        <a href="#" class="btn">Read More</a>
+                 <div id="RealTalkBlog"></div>
+                  <div class="row pt-4 text-center">
+                    <div class="col-12" id="LearnMoreRealTalk" style="background-color:black">
+                        <a href="https://upperdublinchineseamericanassociation.blogspot.com/search/label/RealTalk" class="LearnMore"> <h3>Click here to read about past forums.</h3></a>
                       </div>
                     </div>
-                     <div class="col">
-                      <div class="card h-100 p-3" style="background-color:#EFE4E4">
-                        <img src="Real%20Talk_4%20group%20photo%20C.jpg" class="card-img-top" alt="AboutImage">
-                        <div class="card-body">
-                          <h5 class="card-title">Skills for the Public</h5>
-                          <p class="card-text">This is a longer card with supporting text below.</p>
-                          </div>
-                        <a href="#" class="btn">Read More</a>
-                      </div>
+                  <script>
+        // Gets first image from blog post
+        function getPostImage(post) {
+            let content = "";
+            if (post.content && post.content.$t) {
+                content = post.content.$t;
+            } else if (post.summary && post.summary.$t) {
+                content = post.summary.$t;
+            }
+
+            let tempDiv = document.createElement("div");
+            tempDiv.innerHTML = content;
+            let img = tempDiv.querySelector("img");
+
+            return img ? img.src : "";
+        }
+
+        //Gets words from blog post
+        function loadBlog(data) {
+            let posts = data.feed.entry || [];
+            let html = "";
+
+            //Change here for # of posts being show. (0,5) shows the 5 lastest posts.
+            posts.slice(0, 3).forEach(post => {
+                let title = post.title.$t;
+                let link = post.link.find(l => l.rel === "alternate").href;
+                let image = getPostImage(post);
+
+                //Adds the image, title, and link text
+                html += `
+                    <div class="post">
+                        ${image ? `<img src="${image}" alt="${title}">` : ""}
+                        <h4>${title}<h4>
+                        <p><a href="${link}" target="_blank">Read More</a></p>
                     </div>
-                     <div class="col">
-                      <div class="card h-100 p-3" style="background-color:#EFE4E4">
-                        <img src="Real%20Talk%203_Photo%20A.jpg" class="card-img-top" alt="AboutImage">
-                        <div class="card-body">
-                          <h5 class="card-title">College, Career, Life</h5>
-                          <p class="card-text">This is a longer card with supporting text below.</p>
-                          </div>
-                        <a href="#" class="btn">Read More</a>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100 p-3" style="background-color:#EFE4E4">
-                        <img src="Real%20Talk%202%20photo%20A.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">The Road Ahead</h5>
-                          <p class="card-text">This is a longer card with supporting text below.</p>
-                          </div>
-                          <a href="#" class="btn">Read More</a>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100 p-3" style="background-color:#EFE4E4">
-                        <img src="Real%20Talk%201%20photo%20A.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">A Second Opinion</h5>
-                          <p class="card-text">This is a longer card with supporting text below.</p>
-                          </div>
-                          <a href="#" class="btn">Read More</a>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100 p-3" style="background-color:#EFE4E4">
-                        <img src="Real%20Talk%202%20photo%20A.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Past Forums</h5>
-                          <p class="card-text">This is a longer card with supporting text below.</p>
-                          </div>
-                          <a href="#" class="btn">Read More</a>
-                          </div>
-                      </div>
-                  </div>
-                  </div>
+                `;
+            });
+
+            //Displays to "blog" div
+            document.getElementById("RealTalkBlog").innerHTML = html || "<p>No posts found.</p>";
+        }
+    </script>
+
+    <script src="https://upperdublinchineseamericanassociation.blogspot.com/feeds/posts/default/-/RealTalk?alt=json-in-script&callback=loadBlog"></script>
+                  
+                </div>
               
               <div class="container p-3 mb-5" style="background-color:#DC9719">
               <h2>Real Talk Comittee</h2>
@@ -531,32 +600,32 @@
                       </div>
                     </div>
               </div>
-            </div>
+            </div> 
           </div>
-            
-            
         </div>
+            
+            
+        
     
  <!--Footer-->
-        <div class="container-fluid " position="sticky" style="background-color:#1F1E14">
-            <div class="row  mt-5 justify-content-center">
-                <div class="col-3 text-center p-3">
+        <div class="container-fluid" position="sticky" style="background-color:#1F1E14">
+            <div class="row mt-4 pe-5">
+                <div class="col-2 p-3">
                 <a href="index.html">
                 <img src="UDCAPrimary.png" width="100px" alt="Logo"></a>
               </div>
-            <div class="col-md-5 text-white align-content-center text-center">
+            <div class="col text-white align-content-center">
                 <h5>Upper Dublin
                 Chinese American Association
                </h5> </div>
-            <div class="col-sm-12 col-md-2  pt-3 pb-3 align-content-center ">
+            <div class="col-sm-12 col-md-2  pt-3 align-content-center">
                 <a href="mailto:UDCA@udchinese.org" class="btn btn-footer">Contact</a>
                 </div>
-            <div class="col-sm-12 col-md-2 pt-3 pb-3 align-content-center">
-                <a href="https://www.paypal.com/donate?token=7L75bGdrRhqNlqWZnUovaPkOmb_yiMQPcAL_br72FXj9TQbgZ-Jy2oLfDtBO_ufVEUF6GcRMEMUbqjeo" class="btn btn-footer">Donate</a>
+            <div class="col-sm-12 col-md-2 pt-3 align-content-center">
+                <a href="https://www.paypal.com/donate?token=20tUKie6Eug36NWWuvtWciy3XHj_gR5hrsIdLXbP7QhfNN6p47j9enBToAJZy_8PmglJ-Dah6SpQRBNP" class="btn btn-footer">Donate</a>
                 </div>
             </div>
         </div>
-        
         
     </body>
    
