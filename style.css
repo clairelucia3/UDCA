@@ -17,27 +17,27 @@
 }
 
     .NavbarLink:hover{
-    color:black;
+    color:white;
     transition-property: inherit;
     transition-duration: 0.25s;
 }
 
     .NavbarLink{
-        color:white
+        color:#cfc5c5
 }
 
     .Active{
-        color:black;
+        color:white;
         font-weight:800;
 }
 
 .Active:hover{
-        color:black;
+        color:white;
         font-weight:800;
 }
 
     .navbar {
-        background-color:#99b4ca;
+        background-color:#635855;
         font-weight:800;
 }
 
